@@ -18,16 +18,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { ChatComponent } from './chat/chat.component';
 import { HomeComponent } from './home/home.component';
 
-var config = {
-  apiKey: "AIzaSyBIlpg2ZgEtY1CCRVNKPDMpxMDrxdU6cLo",
-  authDomain: "firesidechat-dev.firebaseapp.com",
-  databaseURL: "https://firesidechat-dev.firebaseio.com",
-  projectId: "firesidechat-dev",
-  storageBucket: "firesidechat-dev.appspot.com",
-  messagingSenderId: "312073688827",
-  appId: "1:312073688827:web:3407e0a855bd710673025e",
-  measurementId: "G-R8G2BDX2J9"
-};
+var config = {};
 
 @NgModule({
   declarations: [AppComponent, ChatComponent, HomeComponent],

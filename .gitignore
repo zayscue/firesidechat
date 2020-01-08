@@ -113,3 +113,5 @@ node_modules/
 .env
 public/index.html
 .firebase/hosting.cHVibGlj.cache
+src/environments/environment.ts
+src/environments/environment.prod.ts
